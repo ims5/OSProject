@@ -25,7 +25,7 @@ Team Mates:
 ***Questions:***
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __Answer: https://github.com/ims5/OSProject__.
-2. How many files and folders are in this repository. ***(1 mark)*** __Answer: There are total of 7 files and 1 folder.__.
+2. How many files and folders are in this repository. ***(1 mark)*** __Answer: 7 files and 1 folder.__.
 
 
 ## Exploring github codespaces
