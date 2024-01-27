@@ -76,8 +76,8 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __Fill answer here__.
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
+1. Run the command **pwd** . ***(1 mark)*** __Output: /workspaces/OSProject__.
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** __<img src= "./images/Output2.png" width="50%">__.
 3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
 4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
 5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
