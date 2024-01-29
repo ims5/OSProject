@@ -87,25 +87,52 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 
 4. Run the command **du** . ***(1 mark)*** 
 
-__<img src= "./images/Output4pt1.png" width="50%">__
-__<img src= "./images/Output4pt2.png" width="50%">__
-__<img src= "./images/Output4pt3.png" width="50%">__
+__<img src= "./images/Output4pt1.png" width="25%">__
+__<img src= "./images/Output4pt2.png" width="25%">__
+__<img src= "./images/Output4pt3.png" width="25%">__
 __<img src= "./images/Output4pt4.png" width="50%">__
 
 
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+5. Run the command **ls** . ***(1 mark)***
+
+__<img src= "./images/Output5.png" width="50%">__
+
+
+6. Run the command **ls -asl** . ***(1 mark)*** 
+
+__<img src= "./images/Output6.png" width="50%">__
+
+
+7. Run the command **free -h** . ***(1 mark)***
+
+__<img src= "./images/Output7.png" width="50%">__
+
+
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** 
+
+__<img src= "./images/Output8pt1.png" width="50%">__
+__<img src= "./images/Output8pt2.png" width="50%">__
+__<img src= "./images/Output8pt3.png" width="50%">__
+
+
+9. Run the command **top** and type **q** to quit. ***(1 mark)***
+
+__<img src= "./images/Output9pt1.png" width="50%">__
+__<img src= "./images/Output9pt2.png" width="50%">__
+
+
+10. Run the command **uname -a**. ***(1 mark)***
+
+__<img src= "./images/Output10.png" width="50%">__
+
+
+11. What is the available free memory in the system. ***(1 mark)*** __Answer: 197Mi__.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Answer: 17516256 bytes__.
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Answer: Linux codespaces-f458cd 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Answer: ls only shows the file and folder that can be seen in the directory, while ls -asl shows the hidden files and shows extra information (eg. date updated)__.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Answer: 2560 4k pages__.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Answer: 2957.917MHz__.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Answer: PID 2334__.
 
 ## Running your own container instance.
 
@@ -165,8 +192,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** __Answer: No, because if the container no longer exists, the files no longer persists__.
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Answer: Yes__.
 
 ## Running your own container with persistent storage
 
@@ -185,14 +212,14 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Answer: user: codespace group: codespace__.
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+*** __<img src= "./images/Output10.png" width="50%">__.***
 
 ## You are on your own, create your own static webpage
 
@@ -218,9 +245,9 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)***
-3. What port is open for http protocol on the host machine? ***(1 mark)***
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Answer: The permission for the owner is read,write and execute. While the permission for the user is read and execute only. Both the owner and group is root.__.
+2. What port is the apache web server running. ***(1 mark)*** __Answer: 8080__
+3. What port is open for http protocol on the host machine? ***(1 mark)*** __Answer: 80__
 
 ## What to submit
 
