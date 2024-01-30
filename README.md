@@ -87,9 +87,9 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 
 4. Run the command **du** . ***(1 mark)*** 
 
-__<img src= "./images/Output4pt1.png" width="25%">__
-__<img src= "./images/Output4pt2.png" width="25%">__
-__<img src= "./images/Output4pt3.png" width="25%">__
+__<img src= "./images/Output4pt1.png" width="50%">__
+__<img src= "./images/Output4pt2.png" width="50%">__
+__<img src= "./images/Output4pt3.png" width="50%">__
 __<img src= "./images/Output4pt4.png" width="50%">__
 
 
